@@ -1,0 +1,36 @@
+POST http://localhost:3000/submit
+Content-Type: application/json
+
+{
+    "name": "Aryan Pandey",
+    "email": "aryan03pandey@gmail.com",
+    "phone": "9278503617",
+    "github_link": "github.com/Aryan03Pandey",
+    "stopwatch_time": "11:00:00"
+}
+
+###
+PUT http://localhost:3000/edit?index=0
+Content-Type: application/json
+
+{
+    "name": "Aryan Dandey",
+    "email": "aryan03pandey@gmail.com",
+    "phone": "9278503617",
+    "github_link": "github.com/Aryan03Pandey",
+    "stopwatch_time": "11:00:00"
+}
+
+###
+
+DELETE http://localhost:3000/delete?index=0
+
+###
+
+GET http://localhost:3000/read?index=0
+
+### 
+GET http://localhost:3000/count
+
+### 
+GET http://localhost:3000/search?email=aryan03pandey@gmail.com
