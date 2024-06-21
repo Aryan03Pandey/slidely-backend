@@ -18,7 +18,7 @@ This repository contains the backend server code for the forms application.
 * create a new folder and navigate to that directory
 * run `git init` to initialize an empty git repo
 * run `git clone https://github.com/Aryan03Pandey/slidely-backend.git` to clone this repository
-* navigate to the slidely-server directory by `cd slidely-server`
+* navigate to the slidely-backend directory by `cd slidely-backend`
 * run `npm install` to install the npm packages
 * run `tsc` to compile the typescript file
 * navigate to /dist directory by running `cd dist/`
