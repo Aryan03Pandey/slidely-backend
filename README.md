@@ -15,7 +15,14 @@ This repository contains the backend server code for the forms application.
     * `/search?email=text`: Search for submissions made using the given email. (Replace `text` with the email address)
 
 **Running the Server Locally:**
+* create a new folder and navigate to that directory
+* run `git init` to initialize an empty git repo
+* run `git clone https://github.com/Aryan03Pandey/slidely-backend.git` to clone this repository
+* navigate to the slidely-server directory by `cd slidely-server`
+* run `npm install` to install the npm packages
+* run `tsc` to compile the typescript file
+* navigate to /dist directory by running `cd dist/`
+* run `node index.js` to run the server
 
-1. (省略 - Omit steps as they are not relevant to README)
-
-**Note:** Steps to run the server locally are omitted for brevity.
+**Making server requests**
+Use the request.rest file to easily make requests to the server. It has endpoints already written for convenience. Make sure that REST Client extension is installed in your VS Code.
